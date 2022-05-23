@@ -1,0 +1,143 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+#header {
+  display: grid;
+}
+header ul {
+  color: white;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 1rem;
+  background-color: #333333;
+  margin: 1rem;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+header a {
+  color: white;
+}
+#main-site {
+  display: grid;
+  grid-auto-flow: row;
+  border: solid 1px;
+  padding: 1rem;
+  width: 40rem;
+  align-items: center;
+  gap: 1rem;
+  margin: auto;
+  border-radius: 20px;
+  color: white;
+  background-color: #333333;
+  margin-bottom: 250px;
+  margin-top: 250px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  place-items: center;
+  padding: 1rem;
+}
+
+main h2 {
+  text-align: center;
+}
+.project-1 {
+  border: solid 1px;
+  width: 400px;
+  height: 120px;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.project-2 {
+  border: solid 1px;
+  width: 400px;
+  height: 120px;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.project-3 {
+  border: solid 1px;
+  width: 400px;
+  height: 120px;
+  padding: 0.5rem;
+  background-color: white;
+}
+.project-button {
+  margin-top: 20px;
+  background-color: #ff5100d2;
+}
+.project-button a {
+  color: white;
+  margin-left: 135px;
+}
+.project h3 {
+  color: #ff5100d2;
+}
+.experience {
+  display: grid;
+  align-items: center;
+   margin-left: 44rem;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 300px;
+  padding-bottom: 2rem;
+  margin-bottom: 20rem;
+}
+.experience-1 {
+  display: grid;
+  grid-auto-flow: column;
+  border: solid 1px;
+  gap: 1rem;
+  padding: 0.5rem;
+  width: 500px;
+  place-items: center;
+}
+.experience-2 {
+  display: grid;
+  border: solid 1px;
+  gap: 1rem;
+  width: 500px;
+  grid-auto-flow: column;
+  padding: 0.5rem;
+}
+.experience-3 {
+  display: grid;
+  width: 500px;
+  grid-auto-flow: column;
+  border: solid 1px;
+  padding: 0.5rem;
+}
+.experience-4 {
+  display: grid;
+  grid-auto-flow: column;
+  width: 500px;
+  gap: 1rem;
+  border: solid 1px;
+  padding:0.5rem;
+}
+#name{
+    padding-right: 43rem
+}
+.footer{
+    background-color: #333333;
+    text-align: center;
+    padding: 0.5rem;
+}
+.footer a{
+    color: white;
+}
